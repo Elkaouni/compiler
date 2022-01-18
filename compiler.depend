@@ -1,0 +1,110 @@
+# depslib dependency file v1.0
+1639730233 source:c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\errors.c
+	<stdlib.h>
+	"errors.h"
+
+1639492086 source:c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\lexer.c
+	<stdio.h>
+	<stdlib.h>
+	"syntax.h"
+	"file.h"
+	<ctype.h>
+	<string.h>
+
+1639255360 c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\lexer.h
+	"tokens.h"
+
+1639490537 c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\tokens.h
+
+1639252187 c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\file.h
+	<stdio.h>
+
+1639735619 source:c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\syntax.c
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<errno.h>
+	"syntax.h"
+	"File.h"
+	"codeGenerator.h"
+	"sem.h"
+
+1639252211 source:c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\tokens.c
+	<stdlib.h>
+	"tokens.h"
+
+1639492181 source:c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\maincompiler.c
+	<stdio.h>
+	<stdlib.h>
+	"syntax.h"
+	"file.h"
+
+1639730243 c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\errors.h
+
+1639262484 c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\syntax.h
+	"lexer.h"
+	"errors.h"
+
+1639519397 c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\sem.h
+
+1639735266 c:\users\user\desktop\2a ensias\tps\tp compila\compilateur\compiler\codegenerator.h
+
+1642453627 source:c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\errors.c
+	<stdlib.h>
+	<stdio.h>
+	"errors.h"
+
+1639730243 c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\errors.h
+
+1639492086 source:c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\lexer.c
+	<stdio.h>
+	<stdlib.h>
+	"syntax.h"
+	"file.h"
+	<ctype.h>
+	<string.h>
+
+1639262484 c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\syntax.h
+	"lexer.h"
+	"errors.h"
+
+1639255360 c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\lexer.h
+	"tokens.h"
+
+1639490537 c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\tokens.h
+
+1642452778 c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\file.h
+	<stdio.h>
+
+1642448610 source:c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\maincompiler.c
+	<stdio.h>
+	<stdlib.h>
+	"syntax.h"
+	"file.h"
+
+1642453584 source:c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\syntax.c
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<errno.h>
+	"syntax.h"
+	"File.h"
+	"codeGenerator.h"
+	"sem.h"
+
+1642453561 c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\codegenerator.h
+
+1639519397 c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\sem.h
+
+1639252211 source:c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\tokens.c
+	<stdlib.h>
+	"tokens.h"
+
+1642452512 source:c:\users\user\desktop\2a ensias\s3\tps\tp compila\compilateur\compiler\interpretor.c
+	<stdio.h>
+	<stdlib.h>
+	"syntax.h"
+	"file.h"
+	<ctype.h>
+	<string.h>
+

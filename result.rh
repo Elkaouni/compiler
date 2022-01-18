@@ -1,0 +1,17 @@
+LDA 	 1 
+LDI 	 12 
+STO 
+LDA 	 2 
+LDA 	 3 
+INT 	 3 
+LDA 	 2 
+LDI 	 2 
+LDI 	 5 
+MUL 
+STO 
+LDA 	 2 
+LDV 
+PRN 
+LDA 	 3 
+INN 
+HLT 

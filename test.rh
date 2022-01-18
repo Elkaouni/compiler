@@ -1,0 +1,9 @@
+program test;
+const toto:=12;
+var x,y;
+begin
+   x:=2*5;
+   write(x);
+   read(y);
+end.
+
