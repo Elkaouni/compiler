@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
 	while (!feof(file))
 	{
 		Token *token = Symb_suiv();
-		AfficherToken(token);
+		//AfficherToken(token);
 		saveTokenInList(token);
 	}
 
