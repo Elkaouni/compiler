@@ -69,10 +69,8 @@ int main(int argc, char *argv[])
 
     //printList();
         printf("\nStart\n");
-
 	premier_sym();
 	PROGRAM();
-
 	printf("\n\nOfficially done.\n");
 	return 1;
 }
