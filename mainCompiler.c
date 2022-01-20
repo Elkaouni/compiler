@@ -43,14 +43,14 @@ void printList()
 
 int main(int argc, char *argv[])
 {
-	char* path = "C:\\Users\\user\\Desktop\\2A Ensias\\S3\\TPs\\TP compila\\compilateur\\compiler\\test.rh";
-	/*if (argc != 2)
+	//char* path = "C:\\Users\\user\\Desktop\\2A Ensias\\S3\\TPs\\TP compila\\compilateur\\compiler\\test.rh";
+	if (argc != 2)
 	{
 		printf("You didn't choose any file. Please try again and don't forget to choose one.\n");
 		exit(1);
-	}*/
+	}
 
-	if ((file = fopen(path, "r")) == NULL)
+	if ((file = fopen(argv[1], "r")) == NULL)
 	{
 		printf("ERROR! Could not open the file.\n");
 		exit(1);
@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
 	while (!feof(file))
 	{
 		Token *token = Symb_suiv();
-		//AfficherToken(token);
+		AfficherToken(token);
 		saveTokenInList(token);
 	}
 
@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
         exit(0);
 
     //printList();
-    printf("\nStart\n");
+        printf("\nStart\n");
 
 	premier_sym();
 	PROGRAM();
