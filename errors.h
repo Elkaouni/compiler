@@ -26,7 +26,7 @@ typedef struct{
 		ERR_ID    ,
 		ERR_NUM   ,
 		ERR_DESC  ,
-        ERR_ASC   ,
+       	 	ERR_ASC   ,
 
 		ERR_PV   ,
 		ERR_PT   ,
